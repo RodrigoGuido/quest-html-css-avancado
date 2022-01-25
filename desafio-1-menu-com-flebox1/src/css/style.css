@@ -1,0 +1,69 @@
+body{
+    max-width: 1440px;
+}
+
+.cabecalho{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho h1{
+    font-size: 20px;
+    font-weight: 800;
+    width: 80px;
+    height: 24px;
+}
+
+.cabecalho .logo{
+    background: url(../images/Untitled\ design.png) center center no-repeat;
+    width: 48.28px;
+    height: 41.8px;
+    display: inline-block;
+}
+
+.cabecalho .container{
+    display: flex;
+    align-items: center;
+    padding: 38px 55px;
+}
+
+.cabecalho nav{
+    display: flex;
+    align-items: center;
+    margin-right: 74px;
+}
+
+.cabecalho nav ul li a{
+    padding: 10px 10px 12px 10px;
+}
+
+.cabecalho nav ul li {
+    display: inline-block;
+    padding: 10px 10px 12px 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cabecalho nav ul li a:hover{
+    background-color: #5BC241;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 21px 11px 21px;
+    background-color: #5BC241;
+    color:#fff;
+    width: 127px;
+    height: 39px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    transition: 0.4s;
+}
+
