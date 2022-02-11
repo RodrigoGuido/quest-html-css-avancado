@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  margin: 0 auto;
   width: 100%;
   max-width: 1440px;
   height: 689px;
@@ -16,7 +17,6 @@ img {
 
 .container {
   display: flex;
-  position: relative;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -67,11 +67,6 @@ img {
     width: 100%;
     object-fit: cover;
   }
-
-  /* .image img{
-    width: 100%;
-    object-fit: cover;
-  } */
 
   .texto {
     position: absolute;

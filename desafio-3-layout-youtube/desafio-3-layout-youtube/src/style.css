@@ -5,10 +5,10 @@
   background-color: #f7f7f7;
   width: 656px;
   height: 368px;
-  display: grid;
 }
 
-.container h2{
+.container .titulo-destaque .text-img-1 h1,
+.container h2 {
   font-size: 14px;
   font-weight: 700;
 }
@@ -22,7 +22,7 @@
   padding: 24px 17px 10px 21px;
 }
 
-.text-img-1 h2{
+.text-img-1 h1{
   padding-left: 21px ;
 }
 

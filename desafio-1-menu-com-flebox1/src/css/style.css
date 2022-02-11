@@ -3,8 +3,8 @@ body{
 }
 
 .cabecalho{
-    position: relative;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -19,7 +19,6 @@ body{
     background: url(../images/Untitled\ design.png) center center no-repeat;
     width: 48.28px;
     height: 41.8px;
-    display: inline-block;
 }
 
 .cabecalho .container{
@@ -52,9 +51,14 @@ body{
     transition: 0.4s;
 }
 
-.button{
+.cabecalho .button:hover{
+    background-color: #275a1d;
+}
+
+.cabecalho .button{
     font-size: 15px;
     font-weight: 300;
+    margin-right: 74px;
     padding: 10px 21px 11px 21px;
     background-color: #5BC241;
     color:#fff;
@@ -63,7 +67,6 @@ body{
     border-radius: 10px;
     display: flex;
     align-items: center;
-    display: inline-block;
     transition: 0.4s;
 }
 
